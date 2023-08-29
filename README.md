@@ -15,6 +15,16 @@ Netflix-gpt
 12. Created redux store with userSlice
 13. Implement Sign out
 14. Update profile
+15. Bug fix, if the user is not logged in redirect /browse to login page and vice versa
+16. Register tmdb api and get app and get access token
+17. Get data from tmdb now playing movie api
+18. Custom hook for now playing movies
+19. Create movie slice and update store with movie data.
+20. Planning for maincontainer and secondary container
+21. Fetch data trailer video
+22. update store with trailer video
+23. Embedded the youtube video and make it autoplay and mute
+24.
 
 #Features
 -login/sign up    
