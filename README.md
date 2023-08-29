@@ -24,7 +24,12 @@ Netflix-gpt
 21. Fetch data trailer video
 22. update store with trailer video
 23. Embedded the youtube video and make it autoplay and mute
-24.
+24. Build Secondary component
+25. Build movie list
+26. Build movie card
+27. TMDB image cdn url
+28. Made browsing page amazing with tailwind css
+29. usePopular movies custom hooks
 
 #Features
 -login/sign up    
