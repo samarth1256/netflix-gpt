@@ -30,6 +30,17 @@ Netflix-gpt
 27. TMDB image cdn url
 28. Made browsing page amazing with tailwind css
 29. usePopular movies custom hooks
+30. GPT Search page
+31. Gpt search bar
+32. (Bonus) Multi language Feature in app
+33. Get open Ai search key
+34. GPT search Api call
+35. Get gptMovieSuggestions from tmdb
+36. Get gptSlice added data
+37. Memoization
+38. Added .env file
+39. Added .env file to gitignore
+40. Maje site responsive
 
 #Features
 -login/sign up    
