@@ -22,16 +22,16 @@ const GptSearchBar = () => {
             messages: [{ role: 'user', content: gptQuery}],
             model: 'gpt-3.5-turbo',
           });
-          console.log(gptResults.choices)
+//console.log(gptResults.choices)
           
           const gptMovies=gptResults.choices?.[0]?.message?.content.split(",") 
-          console.log(gptMovies);
+          //console.log(gptMovies);
             
         const promiseArray=gptMovies.map((movie)=>searchMovieTmdb(movie))
         //This returns five promises (searchMovieTmdb) returns 5 promise for each movie as it fetches async await api.
         //[Promise,Promise,Promise,Promise,Promise]
         const tmdbResults=await Promise.all(promiseArray); //Here await waits to get the result after all 5 promises are resolved
-        console.log(tmdbResults);
+        //console.log(tmdbResults);
         dispatch(addGptMovieResult({movieNames:gptMovies,movieResults:tmdbResults}));
     }
   return (
